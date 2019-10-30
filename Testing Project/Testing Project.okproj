@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Opkey6XProjectSchema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Testing Project">
+  <AuditTrailLevel>HighLevel</AuditTrailLevel>
+  <CreatedBy>b967ee64-96ad-47af-b90e-733e32082d39</CreatedBy>
+  <Mode>Team</Mode>
+  <IsEncryptionModeOn>False</IsEncryptionModeOn>
+  <EncryptionPassword />
+  <Salt />
+  <MaxParallelRunAllowed>2</MaxParallelRunAllowed>
+  <MaxParallelRunOnBrowserStack>2</MaxParallelRunOnBrowserStack>
+  <MaxParallelRunOnSauceLabs>2</MaxParallelRunOnSauceLabs>
+  <Plugins>
+    <Plugin>Selenium WebDriver</Plugin>
+    <Plugin>Web</Plugin>
+    <Plugin>OpKey OracleEBS</Plugin>
+    <Plugin>Sikuli</Plugin>
+    <Plugin>UFT</Plugin>
+    <Plugin>OpKeyMobility-Android</Plugin>
+    <Plugin>Appium</Plugin>
+    <Plugin>OpKeyDesktop</Plugin>
+    <Plugin>Utility</Plugin>
+    <Plugin>Salesforce</Plugin>
+    <Plugin>OpKey-IE-Plugin</Plugin>
+    <Plugin>Workday</Plugin>
+    <Plugin>OracleFusion</Plugin>
+    <Plugin>OpKeyJava</Plugin>
+    <Plugin>OpKeyMobility-iOS</Plugin>
+    <Plugin>PeopleSoft</Plugin>
+    <Plugin>Mainframe</Plugin>
+  </Plugins>
+</Opkey6XProjectSchema>
