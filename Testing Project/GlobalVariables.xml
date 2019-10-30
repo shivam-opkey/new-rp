@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<GlobalVariableSchema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GlobalVarables>
+    <GlobalVariable>
+      <Name>Default Browser</Name>
+      <Value xsi:type="xsd:string">Chrome</Value>
+      <DataType_ENUM>String</DataType_ENUM>
+      <ExternallyUpdatable>false</ExternallyUpdatable>
+      <IsDeleted>false</IsDeleted>
+      <ListValues />
+    </GlobalVariable>
+    <GlobalVariable>
+      <Name>Default Mobile Device</Name>
+      <DataType_ENUM>MobileDevice</DataType_ENUM>
+      <ExternallyUpdatable>false</ExternallyUpdatable>
+      <IsDeleted>false</IsDeleted>
+      <ListValues />
+    </GlobalVariable>
+  </GlobalVarables>
+</GlobalVariableSchema>
