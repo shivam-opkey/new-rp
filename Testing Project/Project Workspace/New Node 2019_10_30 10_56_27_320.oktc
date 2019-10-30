@@ -27,9 +27,31 @@ Output Data: True or False</Comment>
         <FlowStepInputArgument>
           <Name>Browser</Name>
           <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">Chrome</StaticValue>
         </FlowStepInputArgument>
         <FlowStepInputArgument>
           <Name>URL</Name>
+          <DataSource>StaticValue</DataSource>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>false</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Comment>This keyword types the specified Text in the given TextArea. This keyword takes a TextArea object and a text to be typed on Textarea, as input argument.</Comment>
+      <Keyword_RelativePath>OpKeyGenericKeyword\TypeTextOnEditBox</Keyword_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+        </FlowStepInputArgument>
+        <FlowStepInputArgument>
+          <Name>Value</Name>
           <DataSource>StaticValue</DataSource>
         </FlowStepInputArgument>
       </StepInputArgs>
